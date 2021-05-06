@@ -1,9 +1,11 @@
 import React from "react";
+import "./style.css";
 
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Indoor Supplies Page</h1>
+      <div className="card">
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
         mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
@@ -11,6 +13,7 @@ function About() {
         semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
         rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+      </div>
     </div>
   );
 }
